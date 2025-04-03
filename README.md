@@ -1,16 +1,11 @@
-# Portfolio Benjamin SEVAULT
+# Portfolio Ilyes MAHI-MOUSSA
 
-Je n'ai aucun problème avec le fait que mon portfolio soit cloné.
+Bienvenue sur mon portfolio personnel, réalisé dans le cadre du BTS SIO (option SLAM).
 
-J'ai moi-même intégré des éléments produits par d'autres personnes et les ai personnalisé selon mes besoins.
+Vous y trouverez :
+- Une présentation de mon parcours
+- Mes compétences en développement
+- Mes projets réalisés (professionnels et personnels)
+- Mon CV, documents, certifications
 
-## :rotating_light: **Attention**  :rotating_light:
-Le formulaire de contact envoie les messages vers **ma** boîte mail.
-
-Si vous copiez mon portfolio, veillez à **_changer_** l'adresse contenue dans le balise form comme suit :
-
-```html
-<form action="https://formsubmit.co/votre_adresse@email.com" method="POST">
-  <!-- vos inputs --!>
-</form>
-```
+Portfolio réalisé avec HTML, CSS, JS — hébergé sur GitHub Pages.
