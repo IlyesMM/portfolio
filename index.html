@@ -1,222 +1,387 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="./assets/icons/BS_squared.png" sizes="32x32">
-        <title>MAHI-MOUSSA Ilyes - Portfolio</title>
-        <meta name="google-site-verification" content="bQNBvyW3uhvUd-tlKFfyvfrz0wG10B-TDz9rWShBs4I" />
-        <meta name="description"
-            content="Je m'appelle MAHI-MOUSSA Ilyes, étudiant en 2ᵉ année de BTS SIO. J’ai choisi cette formation pour apprendre à développer des projets web, et je souhaite m’orienter par la suite vers le métier de UX/UI Designer">
-        <meta name="author" content="MAHI-MOUSSA Ilyes">
-        <meta name="copyright" content="MAHI-MOUSSA Ilyes">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/icons/BS_squared.png" sizes="32x32">
+    <title>MAHI-MOUSSA Ilyes - Portfolio</title>
+    <meta name="google-site-verification" content="bQNBvyW3uhvUd-tlKFfyvfrz0wG10B-TDz9rWShBs4I" />
+    <meta name="description"
+        content="Je m'appelle MAHI-MOUSSA Ilyes, étudiant en 2ᵉ année de BTS SIO. J’ai choisi cette formation pour apprendre à développer des projets web, et je souhaite m’orienter par la suite vers le métier de UX/UI Designer">
+    <meta name="author" content="MAHI-MOUSSA Ilyes">
+    <meta name="copyright" content="MAHI-MOUSSA Ilyes">
 
-        <link rel="stylesheet" href="./style/global.css" />
-        <link rel="stylesheet" href="./style/navbar.css">
-        <link rel="stylesheet" href="./style/banner.css">
-        <link rel="stylesheet" href="./style/timeline.css">
-        <link rel="stylesheet" href="./style/skills.css">
-        <link rel="stylesheet" href="./style/works.css">
-        <link rel="stylesheet" href="./style/dropdown.css">
-        <link rel="stylesheet" href="./style/watch.css">
-        <link rel="stylesheet" href="./style/contact.css">
-        <link rel="stylesheet" href="./style/footer.css">
-        <link rel="stylesheet" href="./style/responsive.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/global.css" />
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/banner.css">
+    <link rel="stylesheet" href="./style/timeline.css">
+    <link rel="stylesheet" href="./style/skills.css">
+    <link rel="stylesheet" href="./style/works.css">
+    <link rel="stylesheet" href="./style/dropdown.css">
+    <link rel="stylesheet" href="./style/watch.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/responsive.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-        <script defer src="./script/main.js"></script>
-    </head>
+    <script defer src="./script/main.js"></script>
+</head>
 
-    <body>
-        <!-- Navbar -->
-        <header id="header">
-            <div class="logo">
-                <div class="socials">
-                    
-                    <a href="https://github.com/IlyesMM" title="Lien vers  mon profil GitHub" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 999.937 999.937">
-                            <path
-                                d="M0 499.968c0-138.012 48.825-255.843 146.476-353.493C244.125 48.825 361.956 0 499.969 0 637.98 0 755.811 48.825 853.462 146.475c97.649 97.65 146.475 215.481 146.475 353.493s-48.825 255.843-146.475 353.493c-97.65 97.65-215.481 146.476-353.493 146.476-138.013 0-255.844-48.825-353.493-146.476C48.825 755.812 0 637.979 0 499.968zm54.684 0c0 122.389 43.617 227.199 130.851 314.434 87.234 87.233 192.045 130.851 314.434 130.851 122.388 0 227.199-43.617 314.433-130.851 87.234-87.234 130.851-192.045 130.851-314.434 0-122.388-43.616-227.199-130.851-314.433C727.168 98.301 622.356 54.684 499.969 54.684c-122.389 0-227.199 43.617-314.434 130.851C98.301 272.769 54.684 377.58 54.684 499.968zm140.617 107.415c-2.604-2.604-2.604-5.208 0-7.812 5.207-5.208 11.718-7.161 19.529-5.859 7.812 1.302 12.369 2.604 13.671 3.906 9.114 3.906 19.205 12.694 30.271 26.366 11.066 13.671 19.855 23.11 26.366 28.318 31.248 26.04 63.146 27.993 95.696 5.859 2.604-9.114 6.836-16.926 12.694-23.437 5.858-6.51 11.393-11.066 16.601-13.671 5.209-2.604 14.323-6.51 27.343-11.718-42.967-3.906-77.795-11.393-104.486-22.46s-47.849-25.063-63.473-41.989c-20.832-23.436-33.527-54.033-38.084-91.791-4.558-37.758-1.628-72.261 8.789-103.509 7.812-19.53 18.879-37.106 33.2-52.731-10.416-32.55-8.463-69.657 5.859-111.321 41.664 2.604 79.422 16.926 113.274 42.966 65.1-16.926 132.804-17.577 203.111-1.953 9.114-6.51 23.111-14.647 41.989-24.413 18.879-9.765 42.641-15.299 71.285-16.601 5.208 14.322 8.789 31.248 10.742 50.778s.977 37.758-2.929 54.684c29.945 31.248 45.569 72.912 46.871 124.992 0 41.664-7.16 76.167-21.482 103.509s-39.711 50.127-76.167 68.354c-24.738 11.719-57.288 18.879-97.65 21.483 18.229 9.114 31.574 18.554 40.037 28.319 8.464 9.765 13.997 25.063 16.602 45.895v61.521l1.952 59.566c3.906 6.511 8.464 12.044 13.672 16.602 5.208 4.557 9.765 7.812 13.671 9.765 3.905 1.953 5.208 4.883 3.905 8.789-1.302 3.906-6.51 5.859-15.623 5.859-22.135 0-39.711-7.812-52.731-23.437-3.906-6.51-5.859-14.321-5.859-23.436v-93.744c0-10.416-2.604-17.903-7.812-22.46-5.208-4.558-10.416-7.487-15.624-8.789v123.039c0 22.134 2.604 36.456 7.812 42.966s8.463 13.021 9.766 19.53c1.302 1.302.325 2.278-2.93 2.929-3.254.65-8.788-.325-16.601-2.929-16.926-3.906-28.644-12.695-35.154-26.366-6.51-13.671-9.765-28.319-9.765-43.943V667.926H488.25v121.086c0 15.624-3.256 30.598-9.766 44.919-9.113 18.229-26.04 27.993-50.777 29.295-3.906-1.302-5.859-2.604-5.859-3.905 1.302-1.303 5.208-7.812 11.718-19.53 1.302-2.604 2.93-7.812 4.883-15.624 1.954-7.812 2.93-16.926 2.93-27.342v-123.04c-5.208 1.302-10.091 4.231-14.648 8.789s-6.836 12.044-6.836 22.46v93.744c0 9.113-1.953 16.926-5.859 23.436-11.718 15.624-29.295 23.437-52.73 23.437-9.114 0-14.322-1.953-15.624-5.859-1.303-2.604-.977-4.883.977-6.836s4.883-4.232 8.789-6.836c3.906-2.604 6.51-4.558 7.812-5.859 5.208-3.906 9.113-9.114 11.718-15.624 3.906-5.208 4.882-18.879 2.929-41.013s-2.279-36.456-.977-42.966c-33.853 11.718-68.355 5.858-103.51-17.577-10.416-10.416-20.832-25.39-31.248-44.919-7.812-14.323-23.436-31.249-46.871-50.779z" />
-                        </svg>
-                    </a>
-                </div>
-                <a href="#accueil" class="name">MAHI-MOUSSA Ilyes</a>
+<body>
+    <!-- Navbar -->
+    <header id="header">
+        <div class="logo">
+            <div class="socials">
+
+                <a href="https://github.com/IlyesMM" title="Lien vers  mon profil GitHub" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 999.937 999.937">
+                        <path
+                            d="M0 499.968c0-138.012 48.825-255.843 146.476-353.493C244.125 48.825 361.956 0 499.969 0 637.98 0 755.811 48.825 853.462 146.475c97.649 97.65 146.475 215.481 146.475 353.493s-48.825 255.843-146.475 353.493c-97.65 97.65-215.481 146.476-353.493 146.476-138.013 0-255.844-48.825-353.493-146.476C48.825 755.812 0 637.979 0 499.968zm54.684 0c0 122.389 43.617 227.199 130.851 314.434 87.234 87.233 192.045 130.851 314.434 130.851 122.388 0 227.199-43.617 314.433-130.851 87.234-87.234 130.851-192.045 130.851-314.434 0-122.388-43.616-227.199-130.851-314.433C727.168 98.301 622.356 54.684 499.969 54.684c-122.389 0-227.199 43.617-314.434 130.851C98.301 272.769 54.684 377.58 54.684 499.968zm140.617 107.415c-2.604-2.604-2.604-5.208 0-7.812 5.207-5.208 11.718-7.161 19.529-5.859 7.812 1.302 12.369 2.604 13.671 3.906 9.114 3.906 19.205 12.694 30.271 26.366 11.066 13.671 19.855 23.11 26.366 28.318 31.248 26.04 63.146 27.993 95.696 5.859 2.604-9.114 6.836-16.926 12.694-23.437 5.858-6.51 11.393-11.066 16.601-13.671 5.209-2.604 14.323-6.51 27.343-11.718-42.967-3.906-77.795-11.393-104.486-22.46s-47.849-25.063-63.473-41.989c-20.832-23.436-33.527-54.033-38.084-91.791-4.558-37.758-1.628-72.261 8.789-103.509 7.812-19.53 18.879-37.106 33.2-52.731-10.416-32.55-8.463-69.657 5.859-111.321 41.664 2.604 79.422 16.926 113.274 42.966 65.1-16.926 132.804-17.577 203.111-1.953 9.114-6.51 23.111-14.647 41.989-24.413 18.879-9.765 42.641-15.299 71.285-16.601 5.208 14.322 8.789 31.248 10.742 50.778s.977 37.758-2.929 54.684c29.945 31.248 45.569 72.912 46.871 124.992 0 41.664-7.16 76.167-21.482 103.509s-39.711 50.127-76.167 68.354c-24.738 11.719-57.288 18.879-97.65 21.483 18.229 9.114 31.574 18.554 40.037 28.319 8.464 9.765 13.997 25.063 16.602 45.895v61.521l1.952 59.566c3.906 6.511 8.464 12.044 13.672 16.602 5.208 4.557 9.765 7.812 13.671 9.765 3.905 1.953 5.208 4.883 3.905 8.789-1.302 3.906-6.51 5.859-15.623 5.859-22.135 0-39.711-7.812-52.731-23.437-3.906-6.51-5.859-14.321-5.859-23.436v-93.744c0-10.416-2.604-17.903-7.812-22.46-5.208-4.558-10.416-7.487-15.624-8.789v123.039c0 22.134 2.604 36.456 7.812 42.966s8.463 13.021 9.766 19.53c1.302 1.302.325 2.278-2.93 2.929-3.254.65-8.788-.325-16.601-2.929-16.926-3.906-28.644-12.695-35.154-26.366-6.51-13.671-9.765-28.319-9.765-43.943V667.926H488.25v121.086c0 15.624-3.256 30.598-9.766 44.919-9.113 18.229-26.04 27.993-50.777 29.295-3.906-1.302-5.859-2.604-5.859-3.905 1.302-1.303 5.208-7.812 11.718-19.53 1.302-2.604 2.93-7.812 4.883-15.624 1.954-7.812 2.93-16.926 2.93-27.342v-123.04c-5.208 1.302-10.091 4.231-14.648 8.789s-6.836 12.044-6.836 22.46v93.744c0 9.113-1.953 16.926-5.859 23.436-11.718 15.624-29.295 23.437-52.73 23.437-9.114 0-14.322-1.953-15.624-5.859-1.303-2.604-.977-4.883.977-6.836s4.883-4.232 8.789-6.836c3.906-2.604 6.51-4.558 7.812-5.859 5.208-3.906 9.113-9.114 11.718-15.624 3.906-5.208 4.882-18.879 2.929-41.013s-2.279-36.456-.977-42.966c-33.853 11.718-68.355 5.858-103.51-17.577-10.416-10.416-20.832-25.39-31.248-44.919-7.812-14.323-23.436-31.249-46.871-50.779z" />
+                    </svg>
+                </a>
             </div>
+            <a href="#accueil" class="name">MAHI-MOUSSA Ilyes</a>
+        </div>
 
-            <div id="hamburger" tabindex="0" role="button" aria-roledescription="mobile menu open/close button"
-                aria-label="open/close menu button" onclick="toggleMenu()">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <nav>
-                <ul id="menu">
-                    <li class="accueil active"><a href="#accueil" onclick="toggleMenu()">Accueil</a></li>
-                    <li class="profil"><a href="#profil" onclick="toggleMenu()">Profil</a></li>
-                    <li class="xpPro"><a href="#xpPro" onclick="toggleMenu()">Réalisations</a></li>
-                    <li class="skills"><a href="#skills" onclick="toggleMenu()">Compétences</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div id="hamburger" tabindex="0" role="button" aria-roledescription="mobile menu open/close button"
+            aria-label="open/close menu button" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li class="accueil active"><a href="#accueil" onclick="toggleMenu()">Accueil</a></li>
+                <li class="profil"><a href="#profil" onclick="toggleMenu()">Profil</a></li>
+                <li class="xpPro"><a href="#xpPro" onclick="toggleMenu()">Réalisations</a></li>
+                <li class="skills"><a href="#skills" onclick="toggleMenu()">Compétences</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Banner -->
-        <section class="banner" id="accueil">
-            <div>
-                <h1>
-                    <span>MAHI-MOUSSA Ilyes</span>
-                </h1>
-                <h2>BTS SIO option SLAM</h2>
-                <a href="#profil" class="btn">En savoir plus</a>
-            </div>
-        </section>
+    <!-- Banner -->
+    <section class="banner" id="accueil">
+        <div>
+            <h1>
+                <span>MAHI-MOUSSA Ilyes</span>
+            </h1>
+            <h2>BTS SIO option SLAM</h2>
+            <a href="#profil" class="btn">En savoir plus</a>
+        </div>
+    </section>
 
-        <!-- Profil -->
-        <section class="about" id="profil">
-            <div class="heading">
-                <h2>Profil</h2>
+    <!-- Profil -->
+    <section class="about" id="profil">
+        <div class="heading">
+            <h2>Profil</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>A propos de moi</h3>
+                <p>
+                    Je m'appelle MAHI-MOUSSA Ilyes, étudiant en 2ᵉ année de BTS SIO option SLAM. J’ai entrepris cette
+                    formation pour acquérir des compétences solides en développement web, avec l’objectif de m’orienter
+                    vers le métier de UX/UI Designer à l'avenir.
+                </p>
+                <h3>Parcours professionnel</h3>
+                <p>
+                    Après l’obtention de mon baccalauréat en 2021, avec une spécialisation en Mathématiques et Physique,
+                    j’ai d’abord travaillé dans le secteur de la restauration et de l’hôtellerie. Cette première
+                    expérience m’a
+                    permis de développer des qualités humaines et d’adaptabilité, essentielles dans tout environnement
+                    professionnel.
+                </p>
+                <p>
+                    Dans le cadre de ma formation en BTS SIO (option SLAM), j’ai effectué deux stages dans la même
+                    entreprise.
+                    Ces périodes en milieu professionnel m’ont permis de participer à des projets concrets autour du
+                    développement web,
+                    de la visibilité en ligne, du référencement (SEO) et de la gestion des réseaux sociaux.
+                </p>
+                <h3>Projet professionnel</h3>
+                <p>
+                    J’ai choisi l’option SLAM afin d’acquérir des compétences solides en développement web. Toutefois,
+                    au fil de
+                    ma formation, je me suis davantage orienté vers l’aspect créatif et ergonomique des interfaces.
+                </p>
+                <p>
+                    Je souhaite désormais m’orienter vers les métiers du design numérique, et plus particulièrement
+                    celui de
+                    UX/UI Designer. Mon objectif est de poursuivre mes études dans cette voie, à travers un Bachelor
+                    spécialisé
+                    ou une formation axée sur le design web et l’expérience utilisateur.
+                </p>
             </div>
-            <div class="content">
-                <div class="contentBx w50">
-                    <h3>A propos de moi</h3>
-                    <p>
-                        Je m'appelle MAHI-MOUSSA Ilyes, étudiant en 2ᵉ année de BTS SIO option SLAM. J’ai entrepris cette formation pour acquérir des compétences solides en développement web, avec l’objectif de m’orienter vers le métier de UX/UI Designer à l'avenir.
-                    </p>
-                    <h3>Parcours professionnel</h3>
-                    <p>
-                        Après l’obtention de mon baccalauréat en 2021, avec une spécialisation en Mathématiques et Physique,
-    j’ai d’abord travaillé dans le secteur de la restauration et de l’hôtellerie. Cette première expérience m’a
-    permis de développer des qualités humaines et d’adaptabilité, essentielles dans tout environnement professionnel.
-                    </p>
-                    <p>
-                        Dans le cadre de ma formation en BTS SIO (option SLAM), j’ai effectué deux stages dans la même entreprise.
-                        Ces périodes en milieu professionnel m’ont permis de participer à des projets concrets autour du développement web,
-                        de la visibilité en ligne, du référencement (SEO) et de la gestion des réseaux sociaux.
-                    </p>
-                    <h3>Projet professionnel</h3>
-                    <p>
-                        J’ai choisi l’option SLAM afin d’acquérir des compétences solides en développement web. Toutefois, au fil de
-    ma formation, je me suis davantage orienté vers l’aspect créatif et ergonomique des interfaces.
-                    </p>
-                    <p>
-                        Je souhaite désormais m’orienter vers les métiers du design numérique, et plus particulièrement celui de
-                        UX/UI Designer. Mon objectif est de poursuivre mes études dans cette voie, à travers un Bachelor spécialisé
-                        ou une formation axée sur le design web et l’expérience utilisateur.
-                    </p>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Réalisations -->
-        <section class="work" id="xpPro">
-            <div class="heading white">
-                <h2>Réalisations</h2>
-                <div class="contentBx">
-                    <p>
-                        Au cours de ma préparation au BTS SIO option SLAM, j'ai réalisé plusieurs projets lors de stages
-                        en entreprise ou d'ateliers professionnels encadrés par l'équipe pédagogique de mon centre de
-                        formation. Ces réalisations en contexte professionnel ou pédagogique m'ont permis d'acquérir les
-                        blocs de compétences du réferentiel du BTS SIO.
-                    </p>
-                </div>
+    <!-- Réalisations -->
+    <section class="work" id="xpPro">
+        <div class="heading white">
+            <h2>Réalisations</h2>
+            <div class="contentBx">
+                <p>
+                    Au cours de ma préparation au BTS SIO option SLAM, j'ai réalisé plusieurs projets lors de stages
+                    en entreprise ou d'ateliers professionnels encadrés par l'équipe pédagogique de mon centre de
+                    formation. Ces réalisations en contexte professionnel ou pédagogique m'ont permis d'acquérir les
+                    blocs de compétences du réferentiel du BTS SIO.
+                </p>
             </div>
-            <div class="content">
-                <div class="contentBx">
-                    <h3>Stages</h3>
-                    <div class="heading white">
-                        <p>En cours de développement</p>  
+        </div>
+        <div class="content">
+            <div class="contentBx">
+                <h3>Stages</h3>
+                <button class="acc-btn">Stage de 1ère année – Site du Théâtre Le Vieux Sage</button>
+                <div class="acc-content">
+                    <p>
+                        Lors de mon stage de première année de BTS SIO SLAM, j’ai intégré l’équipe du <strong>théâtre
+                            Les Têtes de l’Art</strong>, dans le cadre d’un partenariat avec le <strong>Théâtre Le Vieux
+                            Sage</strong>, également dirigé par le même propriétaire.
+                        Ma mission portait sur la <strong>refonte et la maintenance du site internet</strong> du Théâtre
+                        Le Vieux Sage afin de moderniser sa communication en ligne.
+                    </p>
+                    <p>
+                        <strong>Activités réalisées :</strong>
+                    <ul>
+                        <li>Refonte graphique du site avec un design plus moderne et responsive</li>
+                        <li>Correction de bugs de navigation et d’affichage</li>
+                        <li>Ajout d’un système d’affichage automatisé des spectacles à venir</li>
+                        <li>Assistance à la gestion du contenu par l’équipe via le back-office</li>
+                    </ul>
+                    </p>
+                    <div class="missions-comp">
+                        <div class="comp">
+                            <h4>Compétences mobilisées</h4>
+                            <ul>
+                                <li>B1.2 – Répondre aux demandes d’évolution</li>
+                                <li>B1.3 – Développer la présence en ligne de l’organisation</li>
+                                <li>B1.5 – Mise à disposition d’un service informatique</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="contentBx">
-                    <h3>Ateliers Professionnels</h3>
-
-                    <button class="acc-btn">MediatekFormations</button>
-                    <div class="acc-content">
-                        <p>
-                            Dans le cadre d’un atelier professionnel, j’ai travaillé en autonomie sur une application Symfony existante nommée MediaTek Formation.
-                            L’objectif était de reprendre un projet inachevé, en comprendre l’architecture, corriger les erreurs de développement à l’aide de SonarLint, et ajouter de nouvelles fonctionnalités comme le tri des playlists, l’affichage du nombre de formations et la mise en place d’un back-office sécurisé.
-                            Ce projet m’a permis de renforcer mes compétences en PHP, Symfony, MVC, Git, et de mieux appréhender la gestion d’une base de données relationnelle dans un contexte de développement réel.
-                        </p>
-                        <p>
-                            <a href="https://github.com/IlyesMM/mediatekformation" target="_blank"
-                                onclick="window.open('https://github.com/IlyesMM/mediatekformation');"
-                            >
-                                Liens GitHub du projet
-                            </a>
-                        </p>
-                    </div>
-
-                    <button class="acc-btn">MediatekDocuments</button>
-                    <div class="acc-content">
-                        <p>
-                            Ce projet avait pour but de manipuler une API REST fournie, via une application Windows Forms développée en C#.
-                            J’ai adapté l’interface utilisateur pour interagir avec les différents endpoints de l’API, permettant la gestion des documents, des commandes et des utilisateurs. J’ai dû résoudre plusieurs conflits de dépendances NuGet et mettre en œuvre des appels asynchrones (ReadAsAsync) pour assurer la liaison entre le client et le serveur.
-                            Cette activité m’a permis d’explorer le fonctionnement d’une architecture connectée (client REST), de configurer un environnement Visual Studio complet, et de gérer des erreurs de compilation complexes.
-                        </p>
-                        <p>
-                            <a href="https://github.com/IlyesMM/rest_mediatekdocuments" target="_blank"
-                                onclick="window.open('https://github.com/IlyesMM/rest_mediatekdocuments');"
-                            >
-                                Lien GitHub du projet (Rest)
-                            </a>
-                            <a href="https://github.com/IlyesMM/mediatekdocuments" target="_blank"
-                            onclick="window.open('https://github.com/IlyesMM/mediatekdocuments');"
-                            >
-                                Lien GitHub du projet 
-                            </a>
-                        </p>
+                <button class="acc-btn">Stage de 2ème année – Théâtre Les Têtes de l’Art</button>
+                <div class="acc-content">
+                    <p>
+                        Pour mon stage de deuxième année, j’ai intégré le <strong>Café-Théâtre Les Têtes de
+                            l’Art</strong>. Ma mission consistait à développer un <strong>questionnaire de réservation
+                            en ligne</strong>
+                        pour permettre aux clients de réserver une table au restaurant du théâtre.
+                    </p>
+                    <p>
+                        <strong>Technologies utilisées :</strong><br>
+                        Symfony – MariaDB – API Platform
+                    </p>
+                    <p>
+                        <strong>Travail réalisé :</strong>
+                    <ul>
+                        <li>Développement du formulaire de réservation connecté à une base de données</li>
+                        <li>Intégration au site existant</li>
+                        <li>Création d’une API REST pour les réservations</li>
+                        <li>Ajout d’une interface d’administration simplifiée</li>
+                    </ul>
+                    </p>
+                    <div class="missions-comp">
+                        <div class="comp">
+                            <h4>Compétences mobilisées</h4>
+                            <ul>
+                                <li>B1.1 – Gérer le patrimoine informatique</li>
+                                <li>B1.2 – Répondre aux demandes d’évolution</li>
+                                <li>B1.4 – Travail en mode projet</li>
+                                <li>B1.5 – Mise à disposition d’un service informatique</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Compétences -->
-        <section id="skills">
-            <div class="heading white">
-                <h2>Compétences</h2>
             </div>
-            <div class="skills-container">
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/html5.svg" alt="Logo HTML5" class="skill-logo">
-                    <h3 class="skill-name">HTML5</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/css.svg" alt="Logo CSS3" class="skill-logo">
-                    <h3 class="skill-name">CSS3</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/javascript.svg" alt="Logo JavaScript" class="skill-logo">
-                    <h3 class="skill-name">JavaScript</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/mysql.svg" alt="Logo MySQL" class="skill-logo">
-                    <h3 class="skill-name">MySQL</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/vscode.svg" alt="Logo VS Code" class="skill-logo">
-                    <h3 class="skill-name">VS Code</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/git.svg" alt="Logo Git" class="skill-logo">
-                    <h3 class="skill-name">Git</h3>
-                </div>
-                <div class="skill-badge">
-                    <img src="./assets/icons/skills/github.svg" alt="Logo GitHub" class="skill-logo">
-                    <h3 class="skill-name">GitHub</h3>
-                </div>
-            </div>
-        </section>
 
-        <!-- Footer -->
-        <footer>
-            <div>
-                <p>MAHI-MOUSSA</p>
-                <p>©2024 All rights reserved</p>
+            <div class="contentBx">
+                <h3>Ateliers Professionnels</h3>
+
+                <button class="acc-btn">Projet : MediatekFormations</button>
+                <div class="acc-content">
+                    <p>
+                        Dans le cadre de ma deuxième année de BTS Services Informatiques aux Organisations (SIO),
+                        spécialité SLAM, j’ai participé à des ateliers professionnels visant à évaluer mes compétences
+                        en développement. Ce projet consistait à reprendre un site web existant de gestion de formations
+                        pour une médiathèque, conçu par un autre développeur, afin d’y apporter des améliorations et de
+                        nouvelles fonctionnalités.
+
+                        J’ai notamment conçu et intégré une interface back-office sécurisée, permettant la gestion
+                        complète des catégories, des playlists et des formations proposées sur la plateforme.
+                    </p>
+                    <p>
+                        <a href="https://github.com/IlyesMM/mediatekformation" target="_blank">
+                            Lien GitHub du projet
+                        </a>
+                    </p>
+                    <div class="missions-comp">
+                        <div class="missions">
+                            <h4>Activités effectuées</h4>
+                            <ul>
+                                <li>Ajout de fonctionnalités à un projet existant</li>
+                                <li>Développement d’un back-office sécurisé</li>
+                                <li>Gestion des playlists, formations et catégories</li>
+                                <li>Utilisation d’HTML/CSS/JS pour le front-end</li>
+                                <li>Travail avec Git et GitHub</li>
+                            </ul>
+                        </div>
+                        <div class="comp">
+                            <h4>Compétences</h4>
+                            <ul>
+                                <li>B1.1 | B1.2 | B1.3</li>
+                                <li>B1.4 | B1.5</li>
+                                <li>B1.6</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <p>
+                    <div class="dropdown">
+                        <span class="dropdown-btn"><i class="fa fa-download"></i>Documents</span>
+                        <div class="dropdown-content">
+                            <a href="assets/docs/mediatekformation/Rapport_MediatekFormations.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Rapport de projet - Ilyes M.
+                            </a>
+                            <a href="assets/docs/mediatekformation/cahier_des_charges.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Cahier des charges
+                            </a>
+                            <a href="assets/docs/mediatekformation/contexte.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Document de contexte
+                            </a>
+                            <a href="mediatekformation/mediatekformations_soustitree.mp4" target="_blank">
+                                <i class="fa fa-video-camera"></i> Vidéo de démonstration
+                            </a>
+                        </div>
+                    </div>
+
+                    </p>
+                </div>
+
+
+                <button class="acc-btn">Projet : MediatekDocuments</button>
+                <div class="acc-content">
+                    <p>
+                        MediatekDocument est un projet mené en deuxième année de BTS SIO option SLAM. Il consistait à
+                        reprendre et améliorer une application existante utilisée par une médiathèque, reposant sur une
+                        API. Le travail a porté à la fois sur l’ajout de nouvelles fonctionnalités au niveau de l’API,
+                        et sur la refonte partielle de l’application cliente développée en C#.
+
+                        Par exemple, l'application permet désormais de modifier les documents ainsi que leur état
+                        (emprunté, disponible, etc.).
+                    </p>
+                    <p>
+                        <a href="https://github.com/IlyesMM/mediatekdocuments" target="_blank">
+                            Voir le dépôt GitHub de l'application C# (client)
+                        </a>
+                        <br>
+                        <a href="https://github.com/IlyesMM/rest_mediatekdocuments" target="_blank">
+                            Voir le dépôt GitHub de l'API REST
+                        </a>
+                        <br>
+                        <a href="https://github.com/IlyesMM/mediatekdocuments/releases/tag/final" target="_blank">
+                            Télécharger l'application (version finale)
+                        </a>
+
+                    </p>
+                    <div class="missions-comp">
+                        <div class="missions">
+                            <h4>Activités effectuées</h4>
+                            <ul>
+                                <li>Analyse d’un projet existant et compréhension du code source</li>
+                                <li>Ajout de fonctionnalités côté client </li>
+                                <li>Connexion à une API REST externe</li>
+                                <li>Test et débogage de l’application</li>
+                                <li>Utilisation de Git pour le suivi de version</li>
+                            </ul>
+                        </div>
+                        <div class="comp">
+                            <h4>Compétences</h4>
+                            <ul>
+                                <li>B1.1 | B1.2</li>
+                                <li>B1.4 | B1.5</li>
+                                <li>B1.6</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <p>
+                    <div class="dropdown">
+                        <span class="dropdown-btn"><i class="fa fa-download"></i>Documents</span>
+                        <div class="dropdown-content">
+                            <a href="assets/docs/mediatekdocuments/rapport_mdtDocuments.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Rapport de projet - Ilyes M.
+                            </a>
+                            <a href="assets/docs/mediatekdocuments/cahier_des_charges_AP2.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Cahier des charges - AP2
+                            </a>
+                            <a href="assets/docs/mediatekdocuments/contexte.pdf" target="_blank">
+                                <i class="far fa-file-pdf-o"></i> Document de contexte
+                            </a>
+                            <a href="mediatekdocuments/mediatekdocuments_soustitree.mp4" target="_blank">
+                                <i class="fa fa-video-camera"></i> Vidéo de démonstration
+                            </a>
+                        </div>
+                    </div>
+
+                    </p>
+                </div>
+
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills">
+        <div class="heading white">
+            <h2>Compétences</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/html5.svg" alt="Logo HTML5" class="skill-logo">
+                <h3 class="skill-name">HTML5</h3>
             </div>
-        </footer>
-    </body>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/css.svg" alt="Logo CSS3" class="skill-logo">
+                <h3 class="skill-name">CSS3</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/javascript.svg" alt="Logo JavaScript" class="skill-logo">
+                <h3 class="skill-name">JavaScript</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/mysql.svg" alt="Logo MySQL" class="skill-logo">
+                <h3 class="skill-name">MySQL</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/vscode.svg" alt="Logo VS Code" class="skill-logo">
+                <h3 class="skill-name">VS Code</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/git.svg" alt="Logo Git" class="skill-logo">
+                <h3 class="skill-name">Git</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/github.svg" alt="Logo GitHub" class="skill-logo">
+                <h3 class="skill-name">GitHub</h3>
+            </div>
+            <div class="skill-badge">
+                <img src="./assets/icons/skills/postman.svg" alt="Logo Postman" class="skill-logo">
+                <h3 class="skill-name">Postman</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p>MAHI-MOUSSA</p>
+            <p>©2024 All rights reserved</p>
+        </div>
+    </footer>
+</body>
 
 </html>
